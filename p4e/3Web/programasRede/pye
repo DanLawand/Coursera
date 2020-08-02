@@ -1,0 +1,4 @@
+echo "Executando Arquivo Python3: $1"
+sleep 2
+chmod a+x $1
+python3 $1
